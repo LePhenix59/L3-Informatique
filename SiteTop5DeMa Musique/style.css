@@ -1,0 +1,208 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background2.jpg') repeat-x center fixed; 
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);       
+}
+
+/* MAIN- MENU */
+#main-menu ul
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#main-menu ul li
+{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+.bw
+{
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/bw-image2.png') no-repeat;
+    opacity: 1;
+    
+}
+.color
+{
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/color-image2.jpg') no-repeat;
+}
+#part2 div
+{
+    background-position: -140px 0px;
+}
+#part3 div
+{
+    background-position: -280px 0px;
+}
+#part4 div
+{
+    background-position: -420px 0px;
+}
+#part5 div
+{
+    background-position: -560px 0px;
+}
+
+
+.description
+{
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: #fff;
+}
+.description h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+
+}
+.description h3
+{
+    margin-top:30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Lobster', sans-serif;
+    background: #d70000;
+    color:#fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+
+}
+
+.description h4
+{
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    color: #333;
+
+}
+
+
+.description p
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Lobster', sans-serif;
+    color:#000;
+    text-align: center;
+}
+
+.description p2
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'arial', sans-serif;
+    color:#000;
+    text-align: center;
+}
+
+p3
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'arial', sans-serif;
+    color:#000;
+    justify-content: center;
+    display: flex;
+}
+
+.description a
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Lobster', sans-serif;
+    color:#000;
+    text-align: center;
+}
+
+.overlay{
+    z-index:100;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.7);
+    transition: opacity .4s;
+    visibility : hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    margin: 6rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.popup .cross{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight:bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: rgb(0, 0, 0);
+}
+
+.popup .cross:hover{
+    color:#000000;
+}
