@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1670256109 source:c:\users\axelg\desktop\tp2 algo_dev\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1670256109 source:c:\users\aymer\onedrive\bureau\tp2 algo_dev\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

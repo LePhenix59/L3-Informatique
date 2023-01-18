@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1666799939 source:c:\users\axelg\desktop\tp1 c l3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1669221993 source:c:\users\axelg\desktop\licence 3\c\tps\tp1 l3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
